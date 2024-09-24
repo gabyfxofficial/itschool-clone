@@ -1,0 +1,54 @@
+.btn {
+  padding: 16px 64px;
+  background-color: var(--normal-gray);
+  border-radius: 24px;
+  font-size: 16px;
+  color: var(--white);
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn.btn-primary {
+  background-color: var(--button-blue);
+}
+
+.btn.btn-success {
+  background-color: var(--normal-green);
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.alege {
+  cursor: pointer;
+  width: fit-content;
+  padding: 10px 50px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 2.4rem;
+  min-width: 11.4rem;
+  color: white;
+  background-color: rgb(0, 135, 104);
+  transition: 0.25s ease-in;
+}
+
+.alege p {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.alege:hover {
+  background-color: #308034;
+}
